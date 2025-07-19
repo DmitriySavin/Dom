@@ -1,7 +1,10 @@
 const refsMainBtn = document.querySelector('.main-btn');
 const refsMainText = document.querySelector('.main-text');
 
-refsMainBtn.textContent = refsMainText.textContent;
+refsMainBtn.addEventListener('click', () => {
+    refsMainBtn.textContent = refsMainText.textContent;
+})
+
 
 // 
 
